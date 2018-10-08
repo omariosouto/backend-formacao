@@ -1,0 +1,23 @@
+{
+  "name": "formacao-ios-backend",
+  "version": "1.0.0",
+  "description": "Back-end do projeto de formação iOS da Alura",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "restify"
+  ],
+  "author": "Joviane",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "restify": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
